@@ -1,0 +1,17 @@
+img {
+    border-radius: 50%;
+    width: 500px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin: auto;
+    display: block;
+    opacity: 0.8;
+    border-style: double;
+    border-color: #000;
+}
+body {  
+    background-color: #586d52; /* Light gray background */
+    font-family: Arial, sans-serif; /* Font style */
+    color: #333; /* Dark gray text color */
+    margin: 0;
+    padding: 20px;
+}
