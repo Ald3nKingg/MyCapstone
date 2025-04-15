@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lost Marbles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- Heading -->
+      <h1 class="display-1 text-center text-primary border border-dark p-3">Lost!! - Alden's Marbles</h1>
+
+      <!-- Background -->
+      <div class="position-relative my-4">
+        <!-- Background Image -->
+        <div class="carousel-background"></div>
+
+        <!-- MARBLE IMAGE -->
+        <div class="row text-center position-absolute top-50 start-50 translate-middle">
+          <div class="col">
+            <img src="https://www.houseofmarbles.us/wp-content/uploads/2024/03/Beach-Ball-Blue-5.jpg" class="img-fluid w-40 border border-dark rounded" alt="Blue Marble">
+          </div>
+          <div class="col">
+            <img src="https://www.houseofmarbles.us/wp-content/uploads/2024/03/Beach-Ball-Red-2-Sharper.jpg" class="img-fluid w-40 border border-dark rounded" alt="Red Marble">
+          </div>
+          <div class="col">
+            <img src="https://i5.walmartimages.com/seo/Large-50mm-2-Fungus-Toe-Breaker-Toy-Marble-Glass-Ball-Huge_81234027-e1ff-4ac2-922e-88218560a9d3.3794cedde73a3f7151476d212f96712d.jpeg" class="img-fluid w-40 border border-dark rounded" alt="Large Marble">
+          </div>
+        </div>
+      </div>
+
+      <!-- BUTTONN-->
+      <div class="d-flex justify-content-center gap-3 my-4">
+        <a href="https://www.gotallyourmarbles.com/" class="btn btn-lg btn-success active" role="button" aria-pressed="true">Find Marbles</a>
+        <a href="https://english.stackexchange.com/questions/163545/to-have-all-ones-marbles-usage-and-origin" class="btn btn-lg btn-danger" role="button">Lost Forever</a>
+      </div>
+    </div>
+
+      <!--FORMMM-->
+    <div class="my-4">
+      <h2 class="text-center">Found the Marbles? Let Us Know!</h2>
+      <form>
+        <div class="mb-3">
+          <label for="nameInput" class="form-label">Your Name</label>
+          <input type="text" class="form-control" id="nameInput" placeholder="Enter your name">
+        </div>
+        <div class="mb-3">
+          <label for="emailInput" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="messageTextarea" class="form-label">Message</label>
+          <textarea class="form-control" id="messageTextarea" rows="3" placeholder="Describe where you found the marbles"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+.carousel-background {
+  background-image: url('https://pier62carousel.com/wp-content/uploads/2023/03/horse-carousel-e1678787437838.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.position-relative .row {
+  z-index: 1; /* Ensures marbles are above the background */
+}
